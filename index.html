@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="苦尽 BITTER END COFFEE：苦是过程，回甘自有时。探索品牌故事、招牌饮品、完整菜单与门店信息。">
+<meta name="theme-color" content="#3D2817">
+<title>苦尽 BITTER END COFFEE · A Little Bitter. A Little Better.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&amp;family=Inter:wght@400;500;600;700&amp;family=Noto+Sans+SC:wght@400;500;700;900&amp;family=Ma+Shan+Zheng&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<!-- 1. 固定导航栏 -->
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="#home" aria-label="苦尽 BITTER END COFFEE 首页">
+      <span class="brand-mark">苦尽</span>
+      <span class="brand-name">
+        <span class="cn">苦尽</span>
+        <span class="en">BITTER END COFFEE</span>
+      </span>
+    </a>
+    <button class="burger" id="burger" aria-label="打开菜单" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">首页</a></li>
+      <li><a href="#about">关于</a></li>
+      <li><a href="#signature">招牌</a></li>
+      <li><a href="#menu">菜单</a></li>
+      <li><a href="#gallery">画廊</a></li>
+      <li><a href="#visit" class="nav-cta">来访</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+<!-- 2. Hero -->
+<section class="hero" id="home">
+  <div class="hero-copy">
+    <h1 class="hero-brush">苦尽</h1>
+    <p class="hero-en">BITTER END COFFEE</p>
+    <p class="hero-tag">A Little Bitter. A Little Better.</p>
+    <div class="hero-btns">
+      <a class="btn btn--mustard" href="#menu">查看菜单</a>
+      <a class="btn btn--outline" href="#visit">找到我们</a>
+    </div>
+  </div>
+</section>
+
+<!-- 3. Our Story -->
+<section class="story" id="about">
+  <div class="wrap story-grid">
+    <div class="story-text">
+      <p class="sec-eyebrow">OUR STORY · 关于</p>
+      <h2 class="story-title">苦是过程，回甘自有时<span class="dot">。</span>
+      </h2>
+      <p><strong>BITTER END 苦尽</strong>，是一个相信「苦尽甘来」的咖啡品牌。我们将咖啡由苦到回甘的味觉变化，转化为一种生活态度：先苦，而后回甘。每一杯好咖啡的尾韵，都是一段苦尽甘来的过程。</p>
+      <p>这里没有过度治愈，也没有刻意励志，只有对苦味与回甘的诚实。<strong>苦尽，不是终点，是回甘的开始。</strong></p>
+      <div class="story-tags">
+        <span>独立设计</span><span>手工冲煮</span><span>日常仪式感</span>
+      </div>
+    </div>
+    <figure class="story-fig">
+      <div class="frame">
+        <img src="assets/images/story.png" alt="手捧咖啡的温馨场景" loading="lazy">
+      </div>
+      <div class="story-seal" aria-hidden="true">
+        <span class="zh">回甘</span>
+        <span class="en">AFTERTASTE</span>
+      </div>
+    </figure>
+  </div>
+</section>
+
+<!-- 4. Signature -->
+<section class="sig" id="signature">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="sec-eyebrow">SIGNATURE · 招牌饮品</p>
+      <h2 class="sec-title">招牌 · <span class="en">Signature</span></h2>
+    </div>
+    <div class="sig-grid">
+      <article class="sig-card">
+        <div class="sig-thumb">
+          <img src="assets/images/americano.png" alt="苦尽美式 Bitter End Americano" loading="lazy">
+          <span class="sig-badge">NO.01</span>
+        </div>
+        <div class="sig-body">
+          <h3 class="sig-name-zh">苦尽美式</h3>
+          <p class="sig-name-en">Bitter End Americano</p>
+          <p class="sig-line">苦得干净，回甘才分明。</p>
+          <div class="sig-foot">
+            <span class="sig-price">¥28</span>
+            <span class="sig-more">招牌首选 →</span>
+          </div>
+        </div>
+      </article>
+      <article class="sig-card">
+        <div class="sig-thumb">
+          <img src="assets/images/latte.png" alt="渡苦拿铁 Crossing Latte" loading="lazy">
+          <span class="sig-badge">NO.02</span>
+        </div>
+        <div class="sig-body">
+          <h3 class="sig-name-zh">渡苦拿铁</h3>
+          <p class="sig-name-en">Crossing Latte</p>
+          <p class="sig-line">奶香是苦与甘之间的桥。</p>
+          <div class="sig-foot">
+            <span class="sig-price">¥34</span>
+            <span class="sig-more">人气之选 →</span>
+          </div>
+        </div>
+      </article>
+      <article class="sig-card">
+        <div class="sig-thumb">
+          <img src="assets/images/cold-brew.png" alt="沉夜冷萃 Midnight Cold Brew" loading="lazy">
+          <span class="sig-badge">NO.03</span>
+        </div>
+        <div class="sig-body">
+          <h3 class="sig-name-zh">沉夜冷萃</h3>
+          <p class="sig-name-en">Midnight Cold Brew</p>
+          <p class="sig-line">十二小时慢萃，苦尽后的清凉。</p>
+          <div class="sig-foot">
+            <span class="sig-price">¥32</span>
+            <span class="sig-more">夏日限定 →</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 5. Menu -->
+<section class="menu" id="menu">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="sec-eyebrow">MENU · 完整菜单</p>
+      <h2 class="sec-title">菜单 · <span class="en">Menu</span></h2>
+    </div>
+    <div class="menu-panel-card">
+      <div class="tabs" role="tablist" aria-label="菜单分类">
+        <button class="tab active" role="tab" aria-selected="true" aria-controls="panel-bitter" id="tab-bitter" data-panel="panel-bitter">苦尽系列</button>
+        <button class="tab" role="tab" aria-selected="false" aria-controls="panel-sweet" id="tab-sweet" data-panel="panel-sweet">甘来系列</button>
+      </div>
+      <div class="tab-panels">
+        <div class="tab-panel active" id="panel-bitter" role="tabpanel" aria-labelledby="tab-bitter">
+          <div class="menu-row">
+            <div class="menu-info">
+              <p class="menu-name">苦尽美式<span class="en">Bitter End Americano</span></p>
+              <p class="menu-desc">苦得干净，回甘才分明。</p>
+            </div>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="menu-price">¥28</span>
+          </div>
+          <div class="menu-row">
+            <div class="menu-info">
+              <p class="menu-name">最后一滴<span class="en">The Last Drop</span></p>
+              <p class="menu-desc">小杯浓缩，大段回甘。</p>
+            </div>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="menu-price">¥22</span>
+          </div>
+          <div class="menu-row">
+            <div class="menu-info">
+              <p class="menu-name">沉夜冷萃<span class="en">Midnight Cold Brew</span></p>
+              <p class="menu-desc">十二小时慢萃，苦尽后的清凉。</p>
+            </div>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="menu-price">¥32</span>
+          </div>
+        </div>
+        <div class="tab-panel" id="panel-sweet" role="tabpanel" aria-labelledby="tab-sweet">
+          <div class="menu-row">
+            <div class="menu-info">
+              <p class="menu-name">渡苦拿铁<span class="en">Crossing Latte</span></p>
+              <p class="menu-desc">奶香是苦与甘之间的桥。</p>
+            </div>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="menu-price">¥34</span>
+          </div>
+          <div class="menu-row">
+            <div class="menu-info">
+              <p class="menu-name">焦糖岸<span class="en">Caramel Shore</span></p>
+              <p class="menu-desc">甜从苦的尽头浮现。</p>
+            </div>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="menu-price">¥36</span>
+          </div>
+          <div class="menu-row">
+            <div class="menu-info">
+              <p class="menu-name">谷物归途<span class="en">Oatway Home</span></p>
+              <p class="menu-desc">植物奶香，温和收尾。</p>
+            </div>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="menu-price">¥36</span>
+          </div>
+          <div class="menu-row">
+            <div class="menu-info">
+              <p class="menu-name">脏脏黎明<span class="en">Dirty Dawn</span></p>
+              <p class="menu-desc">冷热分层，苦甘交界。</p>
+            </div>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="menu-price">¥38</span>
+          </div>
+          <div class="menu-row">
+            <div class="menu-info">
+              <p class="menu-name">甘来之秋<span class="en">Sweet Arrival</span></p>
+              <p class="menu-desc">桂花与蜂蜜，落在焦糖色里。</p>
+            </div>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="menu-price">¥42</span>
+          </div>
+        </div>
+      </div>
+      <p class="menu-note">所有饮品均可选冰 / 热 · 奶类可换燕麦奶</p>
+    </div>
+  </div>
+</section>
+
+<!-- 6. Gallery -->
+<section class="gal" id="gallery">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="sec-eyebrow">GALLERY · 影像</p>
+      <h2 class="sec-title">日常 · <span class="en">Gallery</span></h2>
+    </div>
+    <div class="gal-grid">
+      <div class="gal-cell r43"><img src="assets/images/coffee-beans.png" alt="咖啡豆" loading="lazy"></div>
+      <div class="gal-cell r43"><img src="assets/images/pour-over.png" alt="手冲咖啡" loading="lazy"></div>
+      <div class="gal-cell wide r169"><img src="assets/images/store.png" alt="门店一角" loading="lazy"></div>
+      <div class="gal-cell r11"><img src="assets/images/croissant.png" alt="可颂" loading="lazy"></div>
+      <div class="gal-cell r11"><img src="assets/images/americano.png" alt="苦尽美式" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. Testimonials -->
+<section class="voices" id="voices">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="sec-eyebrow">TESTIMONIALS · 顾客评价</p>
+      <h2 class="sec-title">他们说 · <span class="en">Voices</span></h2>
+    </div>
+    <div class="voices-grid">
+      <figure class="voice-card">
+        <span class="voice-quote-mark" aria-hidden="true">“</span>
+        <blockquote class="voice-text">苦尽之后，真的回甘。</blockquote>
+        <figcaption class="voice-who">— 常客 林小姐</figcaption>
+      </figure>
+      <figure class="voice-card">
+        <span class="voice-quote-mark" aria-hidden="true">“</span>
+        <blockquote class="voice-text">一杯美式，喝出了人生节奏。</blockquote>
+        <figcaption class="voice-who">— 咖啡师 阿杰</figcaption>
+      </figure>
+      <figure class="voice-card">
+        <span class="voice-quote-mark" aria-hidden="true">“</span>
+        <blockquote class="voice-text">这里的窗光和咖啡一样值得等待。</blockquote>
+        <figcaption class="voice-who">— 设计师 Cestate</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 8. Visit Us -->
+<section class="visit" id="visit">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="sec-eyebrow">VISIT US · 营业信息</p>
+      <h2 class="sec-title">来访 · <span class="en">Visit Us</span></h2>
+    </div>
+    <div class="visit-grid">
+      <div class="visit-card">
+        <div class="visit-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#D4692A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11z"></path><circle cx="12" cy="10" r="2.6"></circle></svg>
+        </div>
+        <h3 class="visit-label">地址</h3>
+        <p>北京市朝阳区 [待填写具体地址]</p>
+      </div>
+      <div class="visit-card">
+        <div class="visit-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#3D2817" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3.2 2"></path></svg>
+        </div>
+        <h3 class="visit-label">营业时间</h3>
+        <p>周一至周五 08:00–20:00<br>周末及节假日 09:00–21:00</p>
+      </div>
+      <div class="visit-card">
+        <div class="visit-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#3E6B75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.6a12 12 0 0 0 5 5L15 13l5 2v4a1.7 1.7 0 0 1-1.9 1.7A16.5 16.5 0 0 1 3.3 5.9 1.7 1.7 0 0 1 5 4z"></path></svg>
+        </div>
+        <h3 class="visit-label">联系方式</h3>
+        <p>电话：<a href="tel:010-XXXX-XXXX">010-XXXX-XXXX</a><br>邮箱：<a href="mailto:hello@bitterend.coffee">hello@bitterend.coffee</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- 9. Footer -->
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <p class="footer-brand">苦尽<small>BITTER END COFFEE</small></p>
+    <nav class="footer-social" aria-label="社交媒体">
+      <a href="#" aria-label="Instagram">Instagram</a>
+      <a href="#" aria-label="小红书">小红书</a>
+      <a href="#" aria-label="微信">微信</a>
+    </nav>
+    <p class="footer-copy">© 2026 BITTER END 苦尽 · All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="assets/main.js" defer></script>
+
+
+</body></html>
